@@ -3,9 +3,7 @@
 
 Console.WriteLine("Введите два целых числа: ");
 int [] number = Array.ConvertAll(Console.ReadLine()!.Split(),int.Parse);
-//System.Console.WriteLine("Вот Ваши числа: ");
-//System.Console.WriteLine(string.Join(" ", number));
-
+/
 int A = number [0];
 int b = number [1];
 
